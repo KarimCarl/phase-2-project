@@ -1,9 +1,17 @@
 import React from 'react'
+import Footer from './Footer';
+import NavBar from './NavBar';
+import SearchBar from './Search';
+
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <NavBar />
+      <SearchBar />
+      <Footer />
+    </>
   )
 }
 
-export default Home
+export default Home;
